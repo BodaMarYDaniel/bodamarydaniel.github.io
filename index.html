@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mar y Daniel - Boda 30 Mayo 2026</title>
+    <meta name="format-detection" content="telephone=no">
+    <title>Mar y Daniel - 30 Mayo 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
@@ -51,7 +52,7 @@
         }
         
         .hero h2 {
-            font-size: 96px;
+            font-size: 77px;
             color: #7ca2e0;
             margin-bottom: 20px;
             font-weight: 400;
@@ -117,32 +118,42 @@
         .btn {
             display: inline-block;
             padding: 8px 20px;
-            background: transparent;
-            color: #a30b37;
+            background: #FD96A9;
+            color: #fff5bf;
             text-decoration: none;
-            border: 2px solid #a30b37;
+            border: 2px solid #FD96A9;
             border-radius: 50px;
             transition: background 0.3s, color 0.3s;
             font-size: 14px;
         }
         
         .btn:hover {
-            background: #a30b37;
+            background: transparent;
+            color: #FD96A9;
+        }
+        
+        .btn:active {
+            background: #FD96A9;
             color: #fff5bf;
         }
         
         .rsvp .btn {
-            background: transparent;
+            background: #FD96A9;
             color: #fff5bf;
-            border: 2px solid #fff5bf;
+            border: 2px solid #FD96A9;
             border-radius: 50px;
             padding: 8px 20px;
             font-size: 14px;
         }
         
         .rsvp .btn:hover {
-            background: #fff5bf;
-            color: #a30b37;
+            background: transparent;
+            color: #FD96A9;
+        }
+        
+        .rsvp .btn:active {
+            background: #FD96A9;
+            color: #fff5bf;
         }
         
         .rsvp {
@@ -230,12 +241,13 @@
             top: 50%;
             transform: translateY(-50%);
             transition: transform 0.3s;
-            opacity: 0;
-            color: #fff5bf;
+            opacity: 1;
+            color: #FD96A9;
+            font-size: 16px;
         }
         
         .gift-details summary:hover::after {
-            opacity: 1;
+            color: #fff5bf;
         }
         
         .gift-details[open] summary::after {
@@ -265,6 +277,12 @@
         .gift-details p {
             margin: 10px 0;
             color: #fff5bf;
+        }
+        
+        .gift-details a {
+            color: #fff5bf;
+            text-decoration: none;
+            pointer-events: none;
         }
         
         .gift-details strong {
@@ -331,9 +349,14 @@
             color: #fff5bf;
         }
         
+        .contact a {
+            color: #fff5bf;
+            text-decoration: none;
+        }
+        
         @media (max-width: 768px) {
             .hero h2 {
-                font-size: 56px;
+                font-size: 45px;
             }
             
             .hero p {
@@ -420,7 +443,6 @@
     <section class="gifts">
         <h2>Regalos</h2>
         <p>Vuestra presencia es lo más importante para nosotros.</p>
-        <p>Si deseáis hacernos un regalo, podéis hacer una aportación.</p>
         
         <details class="gift-details">
             <summary>APORTACIÓN</summary>
@@ -448,10 +470,10 @@
                 
                 <div class="contact">
                     <h4>Mar</h4>
-                    <p>670 01 60 05</p>
+                    <p><a href="tel:+34670016005"></a>670 01 60 05</a></p>
                     
                     <h4>Daniel</h4>
-                    <p>630 076 522</p>
+                    <p><a href="tel:+34630076522">630 076 522</a></p>
                 </div>
             </div>
         </div>
