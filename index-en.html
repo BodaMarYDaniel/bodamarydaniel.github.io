@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✝️</text></svg>">
-    <title>Mar y Daniel - 30 Mayo 2026</title>
+    <title>Mar & Daniel - May 30, 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
@@ -293,15 +293,15 @@
             color: #a30b37;
         }
         
+        .gift-details strong {
+            font-weight: 700;
+            color: #a30b37;
+        }
+        
         .gift-details a {
             color: #a30b37;
             text-decoration: none;
             pointer-events: none;
-        }
-        
-        .gift-details strong {
-            font-weight: 700;
-            color: #a30b37;
         }
         
         footer {
@@ -370,7 +370,7 @@
         
         @media (max-width: 768px) {
             .hero h2 {
-                font-size: 45px;
+                font-size: 29px;
             }
             
             .hero p {
@@ -406,9 +406,9 @@
     </header>
     
     <section class="hero">
-        <h2>¡Nos casamos!</h2>
-        <p>30 de mayo de 2026</p>
-        <p>13:00 h.</p>
+        <h2>We're getting married!</h2>
+        <p>May 30, 2026</p>
+        <p>1:00 PM</p>
     </section>
     
     
@@ -433,40 +433,40 @@
     <section class="locations">
         <div class="location-grid">
             <div class="location">
-                <h3>Ceremonia</h3>
-                <h4>Parroquia<br>San Juan Bautista</h4>
+                <h3>Ceremony</h3>
+                <h4>San Juan Bautista<br>Parish</h4>
                 <p>Calle Mayor, s/n, 03550 San Juan de Alicante</p>
-                <a href="https://maps.app.goo.gl/gS4Ckuwz2LFnxjQF9" target="_blank" class="btn">Cómo llegar</a>
+                <a href="https://maps.app.goo.gl/gS4Ckuwz2LFnxjQF9" target="_blank" class="btn">Get Directions</a>
             </div>
             
             <div class="location">
-                <h3>Celebración</h3>
+                <h3>Reception</h3>
                 <h4>Jardines<br>Buganvilla</h4>
                 <p>Partida el volaor, 41, 03110 Muchamiel</p>
-                <a href="https://maps.app.goo.gl/7xCdBQQmt8TZ3WtW9" target="_blank" class="btn">Cómo llegar</a>
+                <a href="https://maps.app.goo.gl/7xCdBQQmt8TZ3WtW9" target="_blank" class="btn">Get Directions</a>
             </div>
         </div>
     </section>
     
     <section class="rsvp">
-        <h2>Confirma tu asistencia</h2>
-        <p>Esperamos tu respuesta antes del 1 de abril</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSDowfEUMCZ5e83BNOgHWsHMWtBkK7PRE397GXxzbmlNueRg/viewform?usp=header" target="_blank" class="btn">Confirmar</a>
+        <h2>Confirm your attendance</h2>
+        <p>We hope to hear from you before April 1</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSDowfEUMCZ5e83BNOgHWsHMWtBkK7PRE397GXxzbmlNueRg/viewform?usp=header" target="_blank" class="btn">RSVP</a>
     </section>
     
     <section class="gifts">
-        <h2>Regalos</h2>
-        <p>Si lo deseas, puedes contribuir a nuestro nuevo futuro juntos     con una aportación.</p>
+        <h2>Gifts</h2>
+        <p>If you wish to give us a gift, you can make a contribution.</p>
         
         <details class="gift-details">
-            <summary>APORTACIÓN</summary>
+            <summary>CONTRIBUTION</summary>
             <div class="gift-details-content">
-                <p>El regalo puede ser en dinero en efectivo, o, si os resulta más cómodo, también podéis realizar una transferencia.</p>
+                <p>The gift can be in cash, or if it's more convenient for you, you can also make a bank transfer.</p>
                 <br>
                 <p><strong>IBAN:</strong></p>
                 <p>ES63 0049 4293 4720 1404 0059</p>
                 <br>
-                <p><strong>DESTINATARIO:</strong></p>
+                <p><strong>RECIPIENT:</strong></p>
                 <p>Mar Ramos Flores</p>
                 <p>Daniel Fenoll Castro</p>
             </div>
@@ -480,11 +480,11 @@
             </div>
             
             <div class="footer-right">
-                <p>Gracias por acompañarnos<br>en este día tan especial</p>
+                <p>Thank you for joining us<br>on this special day</p>
                 
                 <div class="contact">
                     <h4>Mar</h4>
-                    <p><a href="tel:+34670016005"></a>670 01 60 05</a></p>
+                    <p><a href="tel:+34670016005">670 01 60 05</a></p>
                     
                     <h4>Daniel</h4>
                     <p><a href="tel:+34630076522">630 076 522</a></p>
@@ -492,19 +492,5 @@
             </div>
         </div>
     </footer>
-    
-    <script>
-        // Detect browser language and redirect if not Spanish or Catalan
-        const userLang = (navigator.language || navigator.userLanguage).toLowerCase();
-        const isSpanishOrCatalan = userLang.startsWith('es') || userLang.startsWith('ca');
-        
-        // Check if user has already been redirected (to avoid redirect loop)
-        const hasVisited = sessionStorage.getItem('langChecked');
-        
-        if (!isSpanishOrCatalan && !hasVisited) {
-            sessionStorage.setItem('langChecked', 'true');
-            window.location.href = 'index-en.html';
-        }
-    </script>
 </body>
 </html>
